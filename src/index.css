@@ -1,11 +1,46 @@
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f4f8;
+  margin: 0;
+  padding: 0;
 }
 
-body {
-  margin: 0;
-  min-width: 320px;
-  min-height: 100vh;
+h1 {
+  font-size: 1.5rem;
+}
+
+.App {
+  max-width: 1200px;
+  margin: auto;
+  padding: 1rem;
+}
+
+.grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
+.shadow-md {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.transform {
+  transition: transform 0.3s ease-in-out;
+}
+
+.hover\\:scale-105:hover {
+  transform: scale(1.05);
 }
